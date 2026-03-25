@@ -3,7 +3,7 @@ cask "claug" do
   name "claug"
   desc "CLI for claug — track and share your coding sessions"
   homepage "https://claug.ai"
-  version "0.0.1-alpha4"
+  version "0.0.1-alpha5"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "claug" do
   on_macos do
     on_intel do
       url "https://github.com/howinator/claug/releases/download/v#{version}/claug_darwin_amd64.tar.gz"
-      sha256 "6c0722c3e5473181ac74e271cd11409d9d5c38c372769c56d60c206a0ee4b6e3"
+      sha256 "16057d822bc9f8c3e3a470376c92baa4569655a15eb55bd85f6f58dd71cd1ac3"
     end
     on_arm do
       url "https://github.com/howinator/claug/releases/download/v#{version}/claug_darwin_arm64.tar.gz"
-      sha256 "3e4a14e83649cb85466048782f738a09e493c1872c032fbad5377ad5973b4feb"
+      sha256 "0e2fba005e30a25bf7832d6254b7618c86bfbc861176cbd1525d8614c82ec1e8"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/howinator/claug/releases/download/v#{version}/claug_linux_amd64.tar.gz"
-      sha256 "4c7f136daf24fbaec5494eaca4c6ff186e9c287cd4c937bc864be28acf8f3794"
+      sha256 "052eaca85bdc8e96ce311f82fc2f7d8b8be4f0f8e02d7685497753217cc99cae"
     end
     on_arm do
       url "https://github.com/howinator/claug/releases/download/v#{version}/claug_linux_arm64.tar.gz"
-      sha256 "4ba7be71797edad306752735828c4e495dfa3edd01828a9f27b2386c1afd41c2"
+      sha256 "36d430e42937aa59a038189438d57e88a7dbb207393b81a7a9a511017b87c3fc"
     end
   end
 
